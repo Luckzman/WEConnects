@@ -7,3 +7,7 @@
     width: 100%;
     bottom: 0;
 }
+
+.modal-footer a:hover{
+    text-decoration: none;
+}
