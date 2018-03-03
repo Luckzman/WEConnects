@@ -23,6 +23,9 @@
     max-width: 45em;    
 }
 
+.jumbotron{
+    background-image: url("../img/12_bg.jpg") !important;
+}
 
 
 .modal-footer a:hover{
@@ -33,6 +36,10 @@
     height: 100px;
     width: 100px;
 
+}
+
+.btn-outline-primary{
+    border-width: 2px;
 }
 
 
