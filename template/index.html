@@ -5,134 +5,86 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>WEConnect</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">  
         <link rel="stylesheet" href="css/style.css">
+        <style>
+            html,
+            body {
+                height: 100%;
+                background-image: url("img/12_bg.jpg") !important;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        </style>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="img/logo_WEconnect_bleu.png" height="30" alt="WEConnect Logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                        <a class="nav-link" data-toggle="modal" data-target="#signIn" href="#">SignIn <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item ml-3">
-                        <a class="nav-link" data-toggle="modal" data-target="#signUp" href="#">SignUp</a>
-                        </li>
-                    </ul>
+        <div class=" d-flex h-100 mx-auto flex-column">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                       Home
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                            <a class="nav-link" data-toggle="modal" data-target="#signIn" href="#">SignIn <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item ml-3">
+                            <a class="nav-link" data-toggle="modal" data-target="#signUp" href="#">SignUp</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
 
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">WEConnect</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> 
+            
+            <div class="container cover-container mx-auto mt-4 text-center text-light">
+                <h1 class="display-4 pt-4">WEConnect</h1>
+                <p class="lead">We provides a platform that brings businesses and individuals together. This platform creates awareness for businesses and gives the users the ability to write reviews about the businesses they have interacted with.</p>
+                <p>Click <a href="catalog.html" class="btn btn-primary">Here!</a> to explore and view more busiess catalog </p>
             </div>
-        </div>
-        
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-4 text-center mt-5">
-                    <div class="card">
-                        <a data-toggle="modal" data-target="#businessProfile" href="#">
-                            <img class="card-img-top" src="img/card_img_1.jpg" alt="Card image cap">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">X-Plug Nig. Ltd</h5>
-                            <p class="card-text">The website designing and maintenance done by X-Plug Solutions team is excellent and awesome. This team has always been on time and on site, taking more than enough care for my business website</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">www.x-plug.com</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center mt-5">
-                    <div class="card">
-                        <a data-toggle="modal" data-target="#businessProfile" href="#">
-                            <img class="card-img-top" src="img/card_img_2.jpg" alt="Card image cap">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">SISA Travels and Tours</h5>
-                            <p class="card-text">SISA has stepped up their game with their lead generation. You have got to check this out yourself to understand. It's quite impressive,we get a minimum of 5-10 leads daily.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">www.sisatravelsandtours.com</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center mt-5">
-                    <div class="card">
-                        <a data-toggle="modal" data-target="#businessProfile" href="#">
-                            <img class="card-img-top" src="img/card_img_3.jpg" alt="Card image cap">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">FixNG Repair Services</h5>
-                            <p class="card-text">I have gotten 4 active customers from Vconnect and will recommend Vconnect to any business person. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">www.fixngrepairservices.com</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center mt-5">
-                    <div class="card">
-                        <a data-toggle="modal" data-target="#businessProfile" href="#">
-                            <img class="card-img-top" src="img/card_img_3.jpg" alt="Card image cap">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">FixNG Repair Services</h5>
-                            <p class="card-text">I have gotten 4 active customers from Vconnect and will recommend Vconnect to any business person. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">www.fixngrepairservices.com</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center mt-5">
-                    <div class="card">
-                        <a data-toggle="modal" data-target="#businessProfile" href="#">
-                            <img class="card-img-top" src="img/card_img_1.jpg" alt="Card image cap">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">X-Plug Nig. Ltd</h5>
-                            <p class="card-text">The website designing and maintenance done by X-Plug Solutions team is excellent and awesome. This team has always been on time and on site, taking more than enough care for my business website</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">www.x-plug.com</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center mt-5">
-                    <div class="card">
-                        <a data-toggle="modal" data-target="#businessProfile" href="#">
-                            <img class="card-img-top" src="img/card_img_2.jpg" alt="Card image cap">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">SISA Travels and Tours</h5>
-                            <p class="card-text">SISA has stepped up their game with their lead generation. You have got to check this out yourself to understand. It's quite impressive,we get a minimum of 5-10 leads daily.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">www.sisatravelsandtours.com</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="footer bg-dark text-light text-center mt-5">
-            <div class="container p-2">
-                <span>&copy; weconnect.com by Oniovosa Lucky Omokarho</span>
-            </div>
-        </div>
 
-        
+            <div class="text-light text-center">
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-md-3">
+                            <i class="fas fa-desktop fa-spin fa-4x bg-danger icon " data-fa-transform="shrink-3" data-fa-mask="fas fa-circle"></i>
+                            <h4>Technology</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam?</p>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fas fa-globe fa-spin fa-4x bg-warning icon" data-fa-transform="shrink-3" data-fa-mask="fas fa-circle"></i>
+                            <h4>World Class</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam?</p>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="far fa-user fa-spin fa-4x bg-success icon" data-fa-transform="shrink-3" data-fa-mask="fas fa-circle"></i>
+                            <h4>User Friendly</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam?</p>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fas fa-university fa-spin fa-4x bg-primary icon" data-fa-transform="shrink-3" data-fa-mask="fas fa-circle"></i>
+                            <h4>Consulting</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              
+    
+            
+            
+            
+            <div class="footer bg-dark text-light text-center mt-auto">
+                <div class="container p-2">
+                    <span>&copy; weconnect.com by Oniovosa Lucky Omokarho</span>
+                </div>
+            </div>
+        </div> 
+         
       
         <!-- SignIn Modal -->
         <div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -192,10 +144,6 @@
                                 <label for="email">E-mail</label>
                                 <input type="email" class="form-control" id="email" >
                             </div>
-                            <div class="form-group mb-3">
-                                <label for="re-email">E-mail</label>
-                                <input type="email" class="form-control" id="re-email" >
-                            </div>
                             <div class="form-group">
                                 <label for="phone-number">Phone Number</label>
                                 <input type="email" class="form-control" id="phone-number" >
@@ -210,84 +158,11 @@
             </div>
         </div>
 
-        <!-- Business Profile Modal -->
-        <div class="modal fade" id="businessProfile" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Business Profile</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="card">
-                        <a>
-                            <img class="card-img-top" src="img/card_img_2.jpg" alt="Card image cap">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">SISA Travels and Tours</h5>
-                            <p class="card-text">SISA has stepped up their game with their lead generation. You have got to check this out yourself to understand. It's quite impressive,we get a minimum of 5-10 leads daily.</p>
-                            <p class="card-text">5, abc road, xyz, Lagos, Nigeria</p>
-                            <p class="card-text">080-1234-5678</p>
-                            <p class="card-text">info@sisatravelsandtours.com</p>
-                            <p class="card-text">www.sisatravelsandtours.com</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted mb-2 lead">Reviews</small><br>
-                            <small class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio dolore dolorem sed.</small><br>
-                            <small class="text-muted float-right">A.Citrus</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#reviewsForm">Add Reviews</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-                </div>
-            </div>
-        </div>      
         
-        <!-- Reviews Form Modal -->
-        <div class="modal fade" id="reviewsForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Add Reviews</h5>
-                <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="formGroupExampleInput">Name</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput">
-                        </div>
-                        <div class="form-group">
-                            <label for="formGroupExampleInput2">Email</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2">
-                        </div>
-                        <div class="form-group">
-                            <label for="formGroupExampleInput2">Review</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="formGroupExampleInput2">Country</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2">
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary" ><a class="text-light" href="#businessProfile" >Submit</a></button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-            </div>
-        </div>
 
         <script src="js/jquery-3.2.1.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script defer src="js/fontawesome-all.js"></script>
     </body>
 </html>
