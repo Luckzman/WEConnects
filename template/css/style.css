@@ -1,0 +1,43 @@
+
+.logo{
+    border: 2px solid #fff;
+}
+
+.bg-darkgreen{
+    background-color: rgb(13, 80, 92);
+}
+
+.navbar-brand,
+.nav-link{
+    color: rgb(202, 202, 202) !important;
+}
+
+.nav-link:hover{
+    
+    color: rgb(190, 190, 190) !important;
+    border-bottom: 2px solid rgb(190, 190, 190) !important;
+    
+}
+
+.cover-container{   
+    max-width: 45em;    
+}
+
+
+
+.modal-footer a:hover{
+    text-decoration: none;
+}
+
+.side-img{
+    height: 100px;
+    width: 100px;
+
+}
+
+
+.icon {
+    border-radius: 50%;
+    border-width: 5px;
+    margin-bottom: 10px;
+}

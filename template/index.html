@@ -1,12 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WEConnect</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>WEConnect</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">  
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            html,
+            body {
+                height: 100%;
+                background-image: url("img/12_bg.jpg") !important;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+    <body>
+        <div class=" d-flex h-100 mx-auto flex-column">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                       Home
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                            <a class="nav-link" data-toggle="modal" data-target="#signIn" href="#">SignIn <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item ml-3">
+                            <a class="nav-link" data-toggle="modal" data-target="#signUp" href="#">SignUp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            
+            <div class="container cover-container mx-auto mt-4 text-center text-light">
+                <h1 class="display-4 pt-4">WEConnect</h1>
+                <p class="lead">We provides a platform that brings businesses and individuals together. This platform creates awareness for businesses and gives the users the ability to write reviews about the businesses they have interacted with.</p>
+                <p>Click <a href="catalog.html" class="btn btn-primary">Here!</a> to explore and view more busiess catalog </p>
+            </div>
+
+            <div class="text-light text-center">
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-md-3">
+                            <i class="fas fa-desktop fa-spin fa-4x bg-danger icon " data-fa-transform="shrink-3" data-fa-mask="fas fa-circle"></i>
+                            <h4>Technology</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam?</p>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fas fa-globe fa-spin fa-4x bg-warning icon" data-fa-transform="shrink-3" data-fa-mask="fas fa-circle"></i>
+                            <h4>World Class</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam?</p>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="far fa-user fa-spin fa-4x bg-success icon" data-fa-transform="shrink-3" data-fa-mask="fas fa-circle"></i>
+                            <h4>User Friendly</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam?</p>
+                        </div>
+                        <div class="col-md-3">
+                            <i class="fas fa-university fa-spin fa-4x bg-primary icon" data-fa-transform="shrink-3" data-fa-mask="fas fa-circle"></i>
+                            <h4>Consulting</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, aperiam?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              
     
-</body>
+            
+            
+            
+            <div class="footer bg-dark text-light text-center mt-auto">
+                <div class="container p-2">
+                    <span>&copy; weconnect.com by Oniovosa Lucky Omokarho</span>
+                </div>
+            </div>
+        </div> 
+         
+      
+        <!-- SignIn Modal -->
+        <div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">SignIn</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group mb-4">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" >
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" ><a class="text-light" href="dashboard.html">Submit</a></button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- SignUp Modal -->
+        <div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Sign-Up Form</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group mb-3">
+                                <label for="name">Name</label>
+                                <input type="email" class="form-control" id="name" >
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="Password1">Password</label>
+                                <input type="password" class="form-control" id="Password1">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="Re-Password2">Re-Password</label>
+                                <input type="password" class="form-control" id="Re-Password2">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" id="email" >
+                            </div>
+                            <div class="form-group">
+                                <label for="phone-number">Phone Number</label>
+                                <input type="email" class="form-control" id="phone-number" >
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary"><a href="dashboard.html" class="text-light">Submit</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <script src="js/jquery-3.2.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script defer src="js/fontawesome-all.js"></script>
+    </body>
 </html>
