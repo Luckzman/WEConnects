@@ -2,6 +2,10 @@
     font-family: "Allura";
     src: url("font/Allura-Regular.ttf");
 }
+@font-face{
+    font-family: "LobsterTwo";
+    src: url("font/LobsterTwo-Regular.ttf");
+}
 .navbar-brand{
     font-family: 'Allura' !important;
     font-weight: 500;
@@ -9,7 +13,10 @@
     color:#fff !important;
     
 }
-
+.display-4{
+    font-family: "LobsterTwo";
+    
+}
 
 .logo{
     border: 2px solid #fff;
