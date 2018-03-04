@@ -10,9 +10,38 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="img/logo_WEconnect_bleu.png" height="30" alt="WEConnect Logo">
+                <a class="navbar-brand" href="index.html">
+                    WeConnect
                 </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="form-inline ml-auto my-auto text-light">
+                        <div class="form-group mr-5">
+                            <select class="form-control form-control-sm" id="businessCategory">
+                                <option>-Filter By Catergory-</option>
+                                <option>Information Technology</option>
+                                <option>Banking and Finance</option>
+                                <option>Production and Manufaction</option>
+                                <option>Entertainment Industry</option>
+                                <option>Legal Sector</option>
+                                <option>Educational Sector</option>
+                                <option>Food and Agriculture</option>
+                                <option>Travels and Tourism</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control form-control-sm" id="businessLocation">
+                                <option>-Filter By Location-</option>
+                                <option>Nigeria</option>
+                                <option>United States</option>
+                                <option>United Kingdom</option>
+                                <option>China</option>
+                            </select>
+                        </div>
+                    </form>      
+                </div>  
             </div>
         </nav>
 
@@ -28,13 +57,13 @@
                             <p class="card-text">The website designing and maintenance done by X-Plug Solutions team is excellent and awesome. This team has always been on time and on site, taking more than enough care for my business website</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">www.x-plug.com</small>
+                            <small class="text-muted">2 reviews</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 text-center mt-5">
                     <div class="card">
-                        <a data-toggle="modal" data-target="#businessProfile" href="#">
+                        <a href="profile.html">
                             <img class="card-img-top" src="img/card_img_2.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -42,13 +71,13 @@
                             <p class="card-text">SISA has stepped up their game with their lead generation. You have got to check this out yourself to understand. It's quite impressive,we get a minimum of 5-10 leads daily.</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">www.sisatravelsandtours.com</small>
+                            <small class="text-muted">3 reviews</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 text-center mt-5">
                     <div class="card">
-                        <a data-toggle="modal" data-target="#businessProfile" href="#">
+                        <a href="profile.html">
                             <img class="card-img-top" src="img/card_img_3.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -56,13 +85,13 @@
                             <p class="card-text">I have gotten 4 active customers from Vconnect and will recommend Vconnect to any business person. This card has even longer content than the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">www.fixngrepairservices.com</small>
+                            <small class="text-muted">9 review</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 text-center mt-5">
                     <div class="card">
-                        <a data-toggle="modal" data-target="#businessProfile" href="#">
+                        <a href="profile.html">
                             <img class="card-img-top" src="img/card_img_3.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -70,13 +99,13 @@
                             <p class="card-text">I have gotten 4 active customers from Vconnect and will recommend Vconnect to any business person. This card has even longer content than the first to show that equal height action.</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">www.fixngrepairservices.com</small>
+                            <small class="text-muted">1 reviews</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 text-center mt-5">
                     <div class="card">
-                        <a data-toggle="modal" data-target="#businessProfile" href="#">
+                        <a href="profile.html">
                             <img class="card-img-top" src="img/card_img_1.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -84,13 +113,13 @@
                             <p class="card-text">The website designing and maintenance done by X-Plug Solutions team is excellent and awesome. This team has always been on time and on site, taking more than enough care for my business website</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">www.x-plug.com</small>
+                            <small class="text-muted">2 reviews</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 text-center mt-5">
                     <div class="card">
-                        <a data-toggle="modal" data-target="#businessProfile" href="#">
+                        <a href="profile.html">
                             <img class="card-img-top" src="img/card_img_2.jpg" alt="Card image cap">
                         </a>
                         <div class="card-body">
@@ -98,7 +127,7 @@
                             <p class="card-text">SISA has stepped up their game with their lead generation. You have got to check this out yourself to understand. It's quite impressive,we get a minimum of 5-10 leads daily.</p>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">www.sisatravelsandtours.com</small>
+                            <small class="text-muted">4 reviews</small>
                         </div>
                     </div>
                 </div>
@@ -149,43 +178,7 @@
                 </div>
             </div>      
             
-            <!-- Reviews Form Modal -->
-            <div class="modal fade" id="reviewsForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Add Reviews</h5>
-                    <button type="button" class="close" data-dismiss="modal">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="formGroupExampleInput">Name</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput">
-                            </div>
-                            <div class="form-group">
-                                <label for="formGroupExampleInput2">Email</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2">
-                            </div>
-                            <div class="form-group">
-                                <label for="formGroupExampleInput2">Review</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="formGroupExampleInput2">Country</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2">
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary" ><a class="text-light" href="#businessProfile" >Submit</a></button>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-                </div>
-            </div>
+            
 
         <script src="js/jquery-3.2.1.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

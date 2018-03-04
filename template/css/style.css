@@ -1,3 +1,15 @@
+@font-face{
+    font-family: "Allura";
+    src: url("font/Allura-Regular.ttf");
+}
+.navbar-brand{
+    font-family: 'Allura' !important;
+    font-weight: 500;
+    font-size: 2em;
+    color:#fff !important;
+    
+}
+
 
 .logo{
     border: 2px solid #fff;
@@ -45,6 +57,6 @@
 
 .icon {
     border-radius: 50%;
-    border-width: 5px;
+    
     margin-bottom: 10px;
 }
