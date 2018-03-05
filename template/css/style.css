@@ -6,11 +6,42 @@
     font-family: "LobsterTwo";
     src: url("font/LobsterTwo-Regular.ttf");
 }
+
+html,
+body{
+    height: 100%;
+     
+}
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -40px;
+  }
+  .page-wrap:after {
+   /*  content: ""; */
+    display: block;
+    margin-bottom: 40px;
+  } 
+   
+  
+
+.index-body {
+    
+    background-image: url("../img/12_bg.jpg") !important;
+    background-size: cover;
+    background-repeat: repeat;
+}
+ nav{
+    height: 50px !important;
+}
+
 .navbar-brand{
     font-family: 'Allura' !important;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 2rem;
     color:#fff !important;
+    text-shadow: 3px 3px 10px rgb(255, 255, 255);
     
 }
 .display-4{
@@ -18,12 +49,12 @@
     
 }
 
-.logo{
-    border: 2px solid #fff;
-}
 
 .bg-darkgreen{
     background-color: rgb(13, 80, 92);
+}
+.navbar{
+    padding: 0 !important;
 }
 
 .navbar-brand,
@@ -63,7 +94,26 @@
 
 
 .icon {
-    border-radius: 50%;
-    
+    border-radius: 50%;    
     margin-bottom: 10px;
 }
+.footer{
+    
+    bottom:0;
+    left:0;
+    width: 100%;
+    
+   }
+
+   @media (max-width: 575.98px) { 
+       .main{
+           margin-bottom:200px;
+       }
+   }
+
+/* .footer{
+    bottom: 0;
+    height: 40px;
+    clear: both;
+} */
+
